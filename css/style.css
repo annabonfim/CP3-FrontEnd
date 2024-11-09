@@ -1,0 +1,149 @@
+:root {
+    --color-primary: #727475;
+    --color-secondary: #fff;
+    --color-accent: #82541c;
+    --color-dark-gray: #707070;
+    --color-light-gray: #7e7e7e;
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: 'Playfair Display', serif;
+}
+
+.header {
+    text-align: center;
+    padding: 10px 0;
+}
+ 
+.logo {
+    width: 70px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+ 
+.menu {
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+ 
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+.menu ul li {
+    display: inline;
+    margin: 0 20px;
+}
+ 
+.menu ul li a {
+    color: var(--color-light-gray);
+    text-decoration: none;
+    font-family: var(--font-primary);
+    font-weight: 100;
+    padding: 5px 10px;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner-1.jpg);    background-size: cover;
+    color: var(--color-secondary);
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 2.5em;
+    font-family: var(--font-secondary);
+    font-weight: 200;
+}
+ 
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 40px;
+    }
+    
+.produto {
+    width: 200px;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    }
+    
+.produto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    }
+
+    figcaption h3 {
+    font-family: var(--font-secondary);
+    font-size: 1.2em;
+    font-weight: 100;
+    color: var(--color-accent);
+    margin: 8px 0 4px;
+    
+}
+ 
+figcaption p {
+    font-family: var(--font-primary);
+    font-size: 1em;
+    color: var(--color-dark-gray);
+    margin: 0;
+}
+ 
+footer {
+    background-color: #f8f8f8;
+    color: #707070;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    font-family: var(--font-primary);
+}
+ 
+footer p {
+    margin: 0;
+}
+ 
+footer a {
+    color: #707070; 
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+figcaption h3 {
+    font-family: var(--font-secondary);
+    font-size: 1.2em;
+    font-weight: 100;
+    color: var(--color-accent);
+    margin: 8px 0 4px;
+    
+}
+ 
+figcaption p {
+    font-family: var(--font-primary);
+    font-size: 1em;
+    color: var(--color-dark-gray);
+    margin: 0;
+}
+ 
+footer {
+    background-color: #f8f8f8;
+    color: #707070;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    font-family: var(--font-primary);
+}
+ 
+footer p {
+    margin: 0;
+}
+ 
+footer a {
+    color: #707070; 
+    text-decoration: none;
+    margin: 0 5px;
+}
