@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function (){
     const produtos = document.querySelectorAll(".produto");
 
     produtos.forEach(produto => {
