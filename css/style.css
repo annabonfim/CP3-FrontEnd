@@ -1,0 +1,9 @@
+:root {
+    --color-primary: #727475;
+    --color-secondary: #fff;
+    --color-accent: #82541c;
+    --color-dark-gray: #707070;
+    --color-light-gray: #7e7e7e;
+    --font-primary: 'Open Sans', sans-serif;
+    --font-secondary: 'Playfair Display', serif;
+}
