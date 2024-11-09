@@ -36,11 +36,11 @@ Este é um projeto de catálogo de bolos feito com HTML, CSS (Flexbox) e JavaScr
     └── bolo_pamonha.jpg
 
 
+
 ## 🌟 Contribuidoras
 
 - [**Alane Rocha rm561052**](https://github.com/alanerochaa)  
-  
+
 - [**Anna Beatriz Bonfim rm559561**](https://github.com/annabonfim)  
-  
+
 - [**Maria Eduarda Araujo rm560944**](https://github.com/DudaAraujo14)  
- 
